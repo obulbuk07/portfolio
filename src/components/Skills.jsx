@@ -1,35 +1,50 @@
 import Skill from "./Skill";
-
+import html from "../img/html.png"
+import css from "../img/css.png"
+import js from "../img/js.png"
+import react from "../img/react.png"
+import scss from "../img/scss.png"
+import tailwind from "../img/tailwind.webp"
+import mysql from "../img/html.png"
+import postgresql from "../img/html.png"
 const skills = [
     {
-        img: "src",
-        name: "CSS"
-    },
-    {
-        img: "src",
+        img: html,
         name: "HTML"
     },
     {
-        img: "src",
+        img: css,
         name: "CSS"
     },
     {
-        img: "src",
-        name: "HTML"
+        img: scss,
+        name: "SCSS"
     },
     {
-        img: "src",
-        name: "CSS"
+        img: js,
+        name: "Java Script"
     },
     {
-        img: "src",
-        name: "HTML"
+        img: react,
+        name: "React.js"
+    },
+    {
+        img: tailwind,
+        name: "Tailwind CSS"
+    },
+    {
+        img: html,
+        name: "MySQL"
+    },
+    {
+        img: html,
+        name: "PostgreSQL"
     },
 ]
 
 function Skills(){
     return(
-        <div className="grid grid-cols-7 gap-2">
+        <div className="grid grid-cols-7 gap-6 py-10">
             {skills.map(skill => (
                 <Skill
                     img={skill.img}

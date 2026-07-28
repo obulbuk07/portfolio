@@ -1,7 +1,7 @@
 function Skill({img, name}){
     return(
-        <div className="border p-2">
-            <img className="h-30 border" src={img} alt="" />
+        <div className="bg-black rounded py-4 px-4 flex flex-col justify-between">
+            <img className=" " src={img} alt="" />
             <p className="text-gray-500 text-center mt-2" clas>{name}</p>
         </div>
     )

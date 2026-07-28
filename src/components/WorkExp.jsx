@@ -1,21 +1,18 @@
 import WorkExpItem from "./WorkExpItem";
+import ifnmu from "../img/ifnmu.png"
+import lpp from "../img/lpp.png"
+
 const workExp = [
     {
-        img: "src",
-        name: "IFNMU",
-        info: "ldjs;fk[pvm[aplfafln'vfka pofvjlfvam fladv'lfm'fkl dlf;fldlf; fkfghj hd dfhjfh jhf f",
-        duration: "01.10.2022-01.10.2024"
+        img: lpp,
+        name: "LPP Logistic",
+        info: "Maintain werhouse robotics, complete logistic tasks by using new technoligies.",
+        duration: "08.05.2024-31.08.2024"
     },
     {
-        img: "src",
+        img: ifnmu,
         name: "IFNMU",
-        info: "ldjs;fk[pvm[aplfafln'vfka pofvjlfvam fladv'lfm'fkl dlf;fldlf; fkfghj hd dfhjfh jhf f",
-        duration: "01.10.2022-01.10.2024"
-    },
-    {
-        img: "src",
-        name: "IFNMU",
-        info: "ldjs;fk[pvm[aplfafln'vfka pofvjlfvam fladv'lfm'fkl dlf;fldlf; fkfghj hd dfhjfh jhf f",
+        info: "Creating and developing projects for uniwersity such as Education Hub and Student Guide, developing university website in team of developers using HTML, CSS, SCSS, Java Script and Wordpress.",
         duration: "01.10.2022-01.10.2024"
     },
 ]

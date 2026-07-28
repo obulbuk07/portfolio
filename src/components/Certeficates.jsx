@@ -1,29 +1,19 @@
 import Certeficat from "./Certeficat";
+import wkm from "../img/wkm-certeficat.jpg"
+import internetional from "../img/conference_certeficat.jpg"
 
 const certeficats = [
     {
-        img: "src",
-        name: "IFNMU"
+        img: wkm,
+        name: "WKM - computer school certeficat"
     },
     {
-        img: "src",
-        name: "WKM"
+        img: internetional,
+        name: "International conference certeficat"
     },
     {
-        img: "src",
-        name: "IFNMU"
-    },
-    {
-        img: "src",
-        name: "WKM"
-    },
-    {
-        img: "src",
-        name: "IFNMU"
-    },
-    {
-        img: "src",
-        name: "WKM"
+        img: wkm,
+        name: "Reward from IFNMU"
     },
     
 ]
@@ -31,7 +21,7 @@ const certeficats = [
 
 function Cetrteficates(){
     return(
-        <div className=" border grid gap-4 grid-cols-5">
+        <div className=" grid gap-4 grid-cols-5">
             {certeficats.map(certeficat => (
                 <Certeficat
                     img={certeficat.img}

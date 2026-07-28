@@ -1,23 +1,28 @@
 import PortfolioProject from "./PortfolioProject";
+import eduhub from "../img/edu-hub.jpg"
+import studentGuide from "../img/student-guide.jpg"
+import skillswap from "../img/skillswap.jpg"
+import portfolio from "../img/portfolio.jpg"
+
 const projects = [
     {
-        img: "src",
+        img: portfolio,
         date: "23.04.2022",
         name: "Portfolio",
-        info: "My portfolio",
+        info: "My portfolio was developed using HTML, CSS, Java Script and React.js",
         link: "https//",
         github: "github",
     },
     {
-        img: "src",
+        img: skillswap,
         date: "20.06.2024",
         name: "SkillSwap",
-        info: "Online platform, where people can shearing or learning new skills from each other.",
+        info: "Online platform, where people can shearing or learning new skills from each other. Platform provide posibillity to cintact people, learning something new and coaching",
         link: "https//",
         github: "github",
     },
     {
-        img: "src",
+        img: studentGuide,
         date: "23.04.2023",
         name: "Student Guide",
         info: "Guide for first year students of Ivano-Frankiwsk Nation Medical Uniwersity, where they can find all information about corpuses, student cafes, student organisations and location of university.",
@@ -25,7 +30,7 @@ const projects = [
         github: "github",
     },
     {
-        img: "src",
+        img: eduhub,
         date: "10.10.2022",
         name: "Education Hub",
         info: "Platform where students can learn online by watching videos and reading lectuares developed for Ivano-Frankiwsk National Medical Uniwersity.",
@@ -37,7 +42,7 @@ const projects = [
 function PortfolioProjects(){
 
     return(
-        <div className="border grid grid-cols-3 gap-4 py-8 mt-4">
+        <div className=" grid grid-cols-3 gap-4 py-8 mt-4">
             {projects.map(project => (
                 <PortfolioProject
                     img={project.img}
