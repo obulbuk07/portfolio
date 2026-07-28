@@ -1,5 +1,6 @@
 import PortfolioModeChanger from "./PortfolioModeChanger";
 import PortfolioProjects from "./PorfolioProjects";
+import Cetrteficates from "./Certeficates";
 function Portfolio(){
     return(
         <div className="w-3/4 border text-white mx-auto mt-10 p-6">
@@ -7,6 +8,7 @@ function Portfolio(){
             <p className="text-center p-4">Choose what you are interesting about</p>
             <PortfolioModeChanger/>
             <PortfolioProjects/>
+            <Cetrteficates/>
         </div>
     )
 }
