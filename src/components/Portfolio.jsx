@@ -1,6 +1,7 @@
 import PortfolioModeChanger from "./PortfolioModeChanger";
 import PortfolioProjects from "./PorfolioProjects";
 import Cetrteficates from "./Certeficates";
+import Skills from "./Skills";
 function Portfolio(){
     return(
         <div className="w-3/4 border text-white mx-auto mt-10 p-6">
@@ -9,6 +10,7 @@ function Portfolio(){
             <PortfolioModeChanger/>
             <PortfolioProjects/>
             <Cetrteficates/>
+            <Skills/>
         </div>
     )
 }
