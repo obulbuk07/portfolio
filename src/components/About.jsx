@@ -1,21 +1,25 @@
 import AboutInfo from "./AboutInfo";
 import AboutStat from "./AboutStat";
+import aboutProject from "../img/about-project.png"
+import aboutCerteficat from "../img/about-certeficat.png"
+import aboutWork from "../img/about-work.png"
+import aboutPhoto from "../img/about-photo.jpg"
 
 const stats = [
     {
-        logo: "url",
+        logo: aboutProject,
         name: "projects",
-        count: 2,
+        count: 4,
         link: "go"
     },
     {
-        logo: "url",
+        logo: aboutCerteficat,
         name: "certeficats",
         count: 1,
         link: "go"
     },
     {
-        logo: "url",
+        logo: aboutWork,
         name: "work",
         count: 2,
         link: "go"
@@ -26,8 +30,8 @@ function About(){
     return(
         <div className="w-3/4 mx-auto border text-white grid grid-cols-3 p-6 gap-6">
             <AboutInfo/>
-            {/*<img src="#" alt="" />*/}
-            <div className="bg-white w-70 h-70 rounded-full"></div>
+            <img className="rounded-full" src={aboutPhoto} alt="" />
+            
             <div className="col-span-3 flex gap-2 mt-4">
                 {stats.map(stat =>(
                     <AboutStat
