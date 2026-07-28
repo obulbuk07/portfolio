@@ -11,10 +11,10 @@ const certeficats = [
         img: internetional,
         name: "International conference certeficat"
     },
-    {
+    {/*{
         img: wkm,
         name: "Reward from IFNMU"
-    },
+    },*/}
     
 ]
 

@@ -5,8 +5,8 @@ import js from "../img/js.png"
 import react from "../img/react.png"
 import scss from "../img/scss.png"
 import tailwind from "../img/tailwind.webp"
-import mysql from "../img/html.png"
-import postgresql from "../img/html.png"
+import mysql from "../img/mysql.png"
+import postgresql from "../img/postgre.png"
 const skills = [
     {
         img: html,
@@ -33,11 +33,11 @@ const skills = [
         name: "Tailwind CSS"
     },
     {
-        img: html,
+        img: mysql,
         name: "MySQL"
     },
     {
-        img: html,
+        img: postgresql,
         name: "PostgreSQL"
     },
 ]
