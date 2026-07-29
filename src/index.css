@@ -85,6 +85,11 @@ html {
     -webkit-animation: AnimationName 0s ease infinite;
     -moz-animation: AnimationName 0s ease infinite;
     animation: AnimationName 0s ease infinite;
+    transition: 0.3s;
+}
+.gradient_bg:hover{
+    background: #000;
+    transition: 0.3s;
 }
 
 @-webkit-keyframes AnimationName {
