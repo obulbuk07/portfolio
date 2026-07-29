@@ -28,7 +28,7 @@ const stats = [
 
 function About(){
     return(
-        <div className="w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6">
+        <div id="about" className="w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6">
             <AboutInfo/>
             <img className="rounded-full" src={aboutPhoto} alt="" />
             

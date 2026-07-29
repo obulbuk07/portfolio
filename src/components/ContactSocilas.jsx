@@ -35,7 +35,7 @@ const socials = [
 
 function ContactSocials(){
     return(
-        <div className="col-span-2 border glass p-4">
+        <div className=" gradient_bg col-span-2 border glass p-4">
             <img className=" rounded-full text-white h-50 w-50 mx-auto" src={photo} alt="" />
             <h1 className="text-2xl text-center my-10">Find me on solcials media</h1>
             

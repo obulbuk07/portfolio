@@ -1,6 +1,6 @@
 function ContactForm(){
     return(
-        <div className="p-4 glass col-span-3">
+        <div className="gradient_bg p-4 glass col-span-3">
             <form className="flex flex-col gap-2 p-4 w-2/3 mx-auto " >
                 <h1 className="text-2xl text-center mb-6">Contact me</h1>
                 <label htmlFor="name">Enter your name</label>
