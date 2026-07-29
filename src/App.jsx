@@ -12,7 +12,7 @@ function App() {
    <>
         
         <Navbar />
-        
+        <Lanyard position={[0, 0, 20]} lanyardWidth={3} gravity={[0, -40, 0]} />
         <Home/>
         <About/>
         <Portfolio/>

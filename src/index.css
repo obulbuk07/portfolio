@@ -34,14 +34,16 @@ html {
 }
 .lanyard-wrapper {
   position: absolute;
-  height: 400px;
+  width: 500px;
+  height: 700px;
+  right: 100px;
+  top: 0px;
   z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
   pointer-events: none;
   overflow: visible;
-  z-index: 10;
 }
 .light_button{
     border: 1px solid white;

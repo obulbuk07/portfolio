@@ -7,7 +7,7 @@ function Home(){
             
             <HomeInfo/>
             <div className="relative">
-                <Lanyard position={[0, 0, 20]} lanyardWidth={1} gravity={[0, -40, 0]} />
+                {/*<Lanyard position={[0, 0, 20]} lanyardWidth={1} gravity={[0, -40, 0]} />*/}
             </div>
             
         </div>
