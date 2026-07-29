@@ -39,3 +39,24 @@ body, html, :root{
   overflow: visible;
   z-index: 10;
 }
+.light_button{
+    border: 1px solid white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.light_button:hover{
+    background: white;
+    color: black
+}
+.purple_button{
+    padding: 8px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+   
+}
+.purple_button:hover{
+    transition: 0.3s;
+    background: white;
+    color: black;
+}
