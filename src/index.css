@@ -137,3 +137,33 @@ textarea:focus {
 .socials{
     transition: 0.3s;
 }
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}
+.text-block {
+  margin-top: 10px;
+  max-width: 600px;
+  font-family: monospace;
+  font-size: clamp(5px, 4vw, 15px);
+  color: #d8d8d8;
+}
+
+.char {
+  will-change: transform;
+  display: inline-block;
+}
+.shiny-text {
+  display: inline-block;
+}
+

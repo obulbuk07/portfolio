@@ -1,4 +1,11 @@
 import HomeSkill from "./HomeSkill";
+import ScrambledText from "./ScrambledText";
+import ShinyText from "./ShinyText";
+import BlurText from "./BlurText";
+
+const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
 
 const skills = ["Java Script", "HTML", "CSS", "Tailwind", "React.js"]
 
@@ -6,11 +13,45 @@ function HomeInfo(){
     
     return(
         <div className="col-span-2">
-            <p className="text-gray-400 tracking-widest py-2 flex items-center gap-2" ><div className="shadow-xl w-2 h-2 rounded-full bg-gray-400 "></div>Available for work</p>
-            <h1 className="text-6xl py-0">Frontend</h1>
-            <h1 className="text-6xl pb-4 text-purple-500" >Developer</h1>
+            <ShinyText
+                text="✨ Available for work"
+                speed={5}
+                delay={0}
+                color="#b5b5b5"
+                shineColor="#ffffff"
+                spread={120}
+                direction="left"
+                yoyo={false}
+                pauseOnHover={false}
+                disabled={false}
+            />
+            <BlurText
+                text="Frontend"
+                delay={200}
+                animateBy="words"
+                direction="top"
+                onAnimationComplete={handleAnimationComplete}
+                className="text-6xl py-0 mb-2"
+            />
+            <BlurText
+                text="Developer"
+                delay={200}
+                animateBy="words"
+                direction="top"
+                onAnimationComplete={handleAnimationComplete}
+                className="text-6xl pb-4 text-purple-500 mb-4"
+            />
             <p className="pt-3 pb-0 tracking-widest">Hello World!</p>
-            <p className="pt-2 pb-2 text-gray-100 ">Create modern, high-performance websites using the latest technologies. Help your business make data-driven decisions, follow market trends, and build innovative digital solutions that increase revenue and accelerate growth.</p>
+            <ScrambledText
+                className="scrambled-text-demo"
+                radius={100}
+                 duration={1.2}
+                speed={0.5}
+                scrambleChars=".:"
+            >
+                Create modern, high-performance websites using the latest technologies. Help your business make data-driven decisions, follow market trends, and build innovative digital solutions that increase revenue and accelerate growth.
+            </ScrambledText>
+            
             <div className="flex gap-2 py-2">
                 {skills.map(skill =>(
                     <HomeSkill name={skill}/>
