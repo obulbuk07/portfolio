@@ -1,9 +1,10 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 body, html, :root{
     padding: 0 0;
     margin: 0 0;
     position: relative;
+   font-family: "Roboto Mono", monospace;
     
 }
 .glass {
@@ -59,4 +60,16 @@ body, html, :root{
     transition: 0.3s;
     background: white;
     color: black;
+}
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
