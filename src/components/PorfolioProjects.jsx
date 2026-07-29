@@ -19,7 +19,7 @@ const projects = [
         name: "SkillSwap",
         info: "An interactive online platform where people can share and learn new skills together. It allows users to connect, collaborate, learn, and offer peer-to-peer coaching effortlessly.",
         link: "https//",
-        github: "github",
+        github: "https://github.com/obulbuk07/skillswap-client",
     },
     {
         img: studentGuide,

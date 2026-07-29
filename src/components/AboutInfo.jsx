@@ -1,6 +1,7 @@
 import DuoButtons from "./DuoButtons";
 import TextType from "./TypeText";
 import ScrambledText from "./ScrambledText"
+import portfolio from "../../public/OleksandrBulbuk.pdf"
 
 function AboutInfo(){
     return(
@@ -35,9 +36,9 @@ function AboutInfo(){
                 />
             </div>
             <DuoButtons
-                link1="#"
+                link1={portfolio}
                 name1="Download CV"
-                link2="#"
+                link2="#portfolio"
                 name2="View Projects"
             />
         </div>

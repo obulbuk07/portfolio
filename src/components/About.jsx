@@ -15,7 +15,7 @@ const stats = [
     {
         logo: aboutCerteficat,
         name: "Сertificates",
-        count: 3,
+        count: 2,
         link: "go"
     },
     {

@@ -8,32 +8,32 @@ import facebook from "../img/facebook.png"
 import github from "../img/github.png"
 const socials = [
     {
-        link:"",
+        link:"https://t.me/sbulbuk",
         img: telegram,
         name: "Telegram"
     },
     {
-        link:"",
+        link:"https://www.linkedin.com/in/oleksandr-bulbuk-59160b263?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         img: linkedin,
         name: "LinkedIn"
     },
     {
-        link:"",
+        link:"https://github.com/obulbuk07",
         img: github,
         name: "GitHub"
     },
     {
-        link:"",
+        link:"https://www.instagram.com/sasha_blbk?igsh=cmgzaDgwcm82Zjhk&utm_source=qr",
         img: instagram,
         name: "Instagram"
     },
     {
-        link:"",
+        link:"https://www.facebook.com/share/191hWPCNvb/?mibextid=wwXIfr",
         img: facebook,
         name: "Facebook"
     },
     {
-        link:"",
+        link:"mailto:sbulbuk@gmail.com",
         img: gmail,
         name: "Email"
     },
@@ -50,6 +50,7 @@ function ContactSocials(){
                     <SocialMedia
                         img={social.img}
                         name={social.name}
+                        link={social.link}
                     />
                 ))}
             </div>
