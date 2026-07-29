@@ -45,6 +45,7 @@ const skills = [
 function Skills(){
     return(
         <div className="grid grid-cols-7 gap-6 py-10">
+            <h1 className="mb-4 text-3xl col-span-7">My Skills</h1>
             {skills.map(skill => (
                 <Skill
                     img={skill.img}

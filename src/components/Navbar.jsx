@@ -2,7 +2,7 @@ function Navbar(){
 
     return(
         <div className="flex text-white glass sticky z-150 top-5 justify-between w-4/5 bg-black mx-auto px-4 py-2 rounded-full mt-4">
-            <p>Oleksandr.Bulbuk</p>
+            <p className="text-xl ">O.Bulbuk</p>
             <nav className="flex gap-3">
                 <a href="#">Home</a>
                 <a href="#">About</a>

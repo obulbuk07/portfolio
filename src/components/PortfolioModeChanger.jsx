@@ -1,10 +1,21 @@
-function PortfolioModeChanger(){
+const items = ["Projects", "Certeficates", "Work Exp.", "Skills"]
+
+function PortfolioModeChanger({activeMode, onModeChange}){
     return(
-        <div className="w-2/4 glass mx-auto flex gap-4 bg-black py-2 px-4 rounded-full">
-            <p className="w-4/4 text-center">Projects</p>
-            <p className="w-4/4 text-center">Certeficats</p>
-            <p className="w-4/4 text-center">Skills</p>
-            <p className="w-4/4 text-center">Work Exp.</p>
+        <div className="w-2/4 glass mx-auto flex justify-center gap-4 bg-black py-2 px-4 rounded-full">
+            {items.map((item) => (
+                <button
+                    key={item}
+                    onClick={() => onModeChange(item)}
+                    className={`px-4 py-2 rounded-full transition-colors ${
+                        activeMode === item
+                            ? "bg-purple-500 text-white"
+                            : "text-gray-400 hover:text-white"
+                    }`}
+                >
+                    {item}
+                </button>
+            ))}
         </div>
     )
 }

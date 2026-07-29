@@ -10,13 +10,14 @@ function App() {
 
   return (
    <>
-        <Lanyard position={[0, 0, 20]} lanyardWidth={0.4} gravity={[0, -40, 0]} />
         <Navbar />
+        
         <Home/>
         <About/>
         <Portfolio/>
         <Contact/>
         <Background/>
+        <p className="text-center text-gray-400 text-xs py-8">@2026 Oleksandr Bulbuk - All rights reserver</p>
    </>
   )
 }

@@ -1,8 +1,13 @@
-function SocialMedia({img, name}){
-    <div className="border text white flex ">
-        <img src={img} alt="" />
-        <p>{name}</p>
-        <p className=" bottom-2 rigth-2">go</p>
-    </div>
+function SocialMedia({img, name, link}){
+    return(
+        <a href={link}>
+            <div className="glass text white flex items-center gap-4 p-4 ">
+                <img className=" h-10" src={img} alt="" />
+                <p>{name}</p>
+            </div>
+        </a>
+        
+    )
+    
 }
 export default SocialMedia;

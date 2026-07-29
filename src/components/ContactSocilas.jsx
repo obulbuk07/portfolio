@@ -1,39 +1,53 @@
 import SocialMedia from "./SocialMedia"
-
+import photo from "../img/about-photo.jpg"
+import telegram from "../img/telegram.png"
+import linkedin from "../img/linkedin.png"
+import instagram from "../img/instagram.png"
+import gmail from "../img/gmail.png"
+import facebook from "../img/facebook.png"
+import github from "../img/github.png"
 const socials = [
     {
-        img: "ff",
-        name: "telegram"
+        img: telegram,
+        name: "Telegram"
     },
     {
-        img: "ff",
-        name: "telegram"
+        img: linkedin,
+        name: "LinkedIn"
     },
     {
-        img: "ff",
-        name: "telegram"
+        img: github,
+        name: "GitHub"
     },
     {
-        img: "ff",
-        name: "telegram"
+        img: instagram,
+        name: "Instagram"
     },
     {
-        img: "ff",
-        name: "telegram"
+        img: facebook,
+        name: "Facebook"
+    },
+    {
+        img: gmail,
+        name: "Gmail"
     },
 ]
 
 function ContactSocials(){
     return(
-        <div>
-            <h1>Find me on solcials media</h1>
-            <img className="border text-white h-50 w-50" src="" alt="" />
-            {socials.map(social => (
-                <SocialMedia
-                    img={social.img}
-                    name={social.name}
-                />
-            ))}
+        <div className="col-span-2 border glass p-4">
+            <img className=" rounded-full text-white h-50 w-50 mx-auto" src={photo} alt="" />
+            <h1 className="text-2xl text-center my-10">Find me on solcials media</h1>
+            
+            <div className="grid grid-cols-2 gap-4 mt-6">
+                {socials.map(social => (
+                    <SocialMedia
+                        img={social.img}
+                        name={social.name}
+                    />
+                ))}
+            </div>
+            
         </div>
     )
 }

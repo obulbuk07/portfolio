@@ -22,6 +22,7 @@ const certeficats = [
 function Cetrteficates(){
     return(
         <div className=" grid gap-4 grid-cols-5">
+            <h1 className="my-4 text-3xl col-span-5">My Certeficates</h1>
             {certeficats.map(certeficat => (
                 <Certeficat
                     img={certeficat.img}
