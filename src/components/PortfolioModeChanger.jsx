@@ -2,7 +2,7 @@ const items = ["Projects", "Certeficates", "Work Exp.", "Skills"]
 
 function PortfolioModeChanger({activeMode, onModeChange}){
     return(
-        <div className="w-2/4 glass mx-auto flex justify-center gap-4 bg-black py-2 px-4 rounded-full rise-in">
+        <div className="w-9/10 md:w-2/4 md:bg-none bg-black glass mx-auto flex flex-col md:flex-row justify-center gap-4 bg-black py-2 px-4 rounded-full rise-in">
             {items.map((item) => (
                 <button
                     key={item}

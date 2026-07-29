@@ -12,7 +12,7 @@ const skills = ["Java Script", "HTML", "CSS", "Tailwind", "React.js"]
 function HomeInfo(){
     
     return(
-        <div className="col-span-2 fall-in">
+        <div className="col-span-3 w-9/10 fall-in sm:pt-20">
             <ShinyText
                 text="✨ Available for work"
                 speed={5}
@@ -52,12 +52,12 @@ function HomeInfo(){
                 Create modern, high-performance websites using the latest technologies. Help your business make data-driven decisions, follow market trends, and build innovative digital solutions that increase revenue and accelerate growth.
             </ScrambledText>
             
-            <div className="flex gap-2 py-2 rise-in">
+            <div className="flex flex-wrap col-span-2 md:col-span-1  gap-2 py-2 ">
                 {skills.map(skill =>(
                     <HomeSkill name={skill}/>
                 ))}
             </div>
-            <p className="text-gray-500 pt-2 fall-in">explore my expirience below</p>
+            <p className="text-gray-500 pt-2 pb-4 fall-in">explore my expirience below</p>
             <p className="text-gray-500 fall-in">open to full-time & freelance opportunitties</p>
         </div>
     )

@@ -30,7 +30,7 @@ function Portfolio(){
         }
     }
     return(
-        <div id="portfolio" className="w-3/4 text-white mx-auto mt-10 p-6 rise-in">
+        <div id="portfolio" className="w-9/10 md:w-3/4 text-white mx-auto mt-10 p-6 rise-in">
             <h1 className="text-center text-3xl">My Portfolio</h1>
             <p className="text-center p-4">Choose what you are interesting about</p>
             <PortfolioModeChanger activeMode={activeMode} onModeChange={setActiveMode} />

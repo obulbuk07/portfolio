@@ -4,7 +4,7 @@ import ScrambledText from "./ScrambledText"
 
 function AboutInfo(){
     return(
-        <div className="col-span-2">
+        <div className="col-span-3 md:col-span-2">
             <h1 className="text-5xl py-2 rise-in">Oleksandr</h1>
             <h1 className="text-5xl pb-2 rise-in">Bulbuk</h1>
             
@@ -19,7 +19,7 @@ function AboutInfo(){
             </ScrambledText>
             
             
-            <div className="glass py-2 px-4 bg-black rounded my-4 w-3/4 rise-in">
+            <div className="glass py-2 px-4 bg-black rounded my-4 w-1/1 md:w3/4 h-20 md:h-10 rise-in">
                 <TextType 
                     text={["Great things are built from small details", "Speed means nothing without precision.", "Simplicity is the hardest thing to build"]}
                     typingSpeed={75}

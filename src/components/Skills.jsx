@@ -44,7 +44,7 @@ const skills = [
 
 function Skills(){
     return(
-        <div className="grid grid-cols-7 gap-6 py-10 rise-in-children">
+        <div className="grid grid-cols-7 gap-12 pl-10 py-10 rise-in-children mx-auto">
             <h1 className="mb-4 text-3xl col-span-7">My Skills</h1>
             {skills.map(skill => (
                 <Skill

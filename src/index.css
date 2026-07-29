@@ -34,9 +34,8 @@ html {
 }
 .lanyard-wrapper {
   position: absolute;
-  width: 500px;
+  
   height: 700px;
-  right: 100px;
   top: 0px;
   z-index: 10;
   display: flex;

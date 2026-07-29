@@ -28,11 +28,11 @@ const stats = [
 
 function About(){
     return(
-        <div id="about" className="w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6 rise-in">
+        <div id="about" className="w-9/10 md:w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6 rise-in md:mb-30">
             <AboutInfo/>
-            <img className="rounded-full hover:brightness-75 " src={aboutPhoto} alt="" />
+            <img className=" row-start-1 rounded-full hover:brightness-75 w-1/1 md:w-3/4 col-span-3 md:col-span-1 " src={aboutPhoto} alt="" />
             
-            <div className="col-span-3 flex gap-2 mt-4">
+            <div className="col-span-3 flex flex-col md:flex-row gap-2 mt-4">
                 {stats.map(stat =>(
                     <AboutStat
                         logo={stat.logo}
