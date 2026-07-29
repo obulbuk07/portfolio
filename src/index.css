@@ -113,3 +113,20 @@ textarea:focus {
   box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.25), 0 0 12px rgba(168, 85, 247, 0.4);
   background-color: rgba(168, 85, 247, 0.05);
 }
+.socials:hover{
+    background: #a855f7;
+}
+.socials:hover img{
+    opacity: 0;
+    transform: scale(0.8);
+}
+.socials:hover p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    transform: translateX(-20px);
+    transition: 0.3s;
+}
+.socials{
+    transition: 0.3s;
+}
