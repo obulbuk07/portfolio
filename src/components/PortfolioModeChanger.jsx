@@ -1,4 +1,4 @@
-const items = ["Projects", "Certeficates", "Work Exp.", "Skills"]
+const items = ["Projects", "Certificates", "Work Exp.", "Skills"]
 
 function PortfolioModeChanger({activeMode, onModeChange}){
     return(

@@ -6,13 +6,13 @@ const workExp = [
     {
         img: lpp,
         name: "LPP Logistic",
-        info: "Maintain werhouse robotics, complete logistic tasks by using new technoligies.",
+        info: "Maintained and monitored automated warehouse robotics systems to streamline logistics operations, improve workflow efficiency, and fulfill daily supply chain tasks using modern technologies.",
         duration: "08.05.2024-31.08.2024"
     },
     {
         img: ifnmu,
         name: "IFNMU",
-        info: "Creating and developing projects for uniwersity such as Education Hub and Student Guide, developing university website in team of developers using HTML, CSS, SCSS, Java Script and Wordpress.",
+        info: "Creating and developing university projects such as Education Hub and Student Guide; developing university websites in a developer team using HTML, CSS, SCSS, JavaScript, and WordPress.",
         duration: "01.10.2022-01.10.2024"
     },
 ]

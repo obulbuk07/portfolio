@@ -5,11 +5,11 @@ import internetional from "../img/conference_certeficat.jpg"
 const certeficats = [
     {
         img: wkm,
-        name: "WKM - computer school certeficat"
+        name: "WKM - computer school certificat"
     },
     {
         img: internetional,
-        name: "International conference certeficat"
+        name: "International conference certificat"
     },
     {/*{
         img: wkm,

@@ -57,8 +57,8 @@ function HomeInfo(){
                     <HomeSkill name={skill}/>
                 ))}
             </div>
-            <p className="text-gray-500 pt-2 pb-4 fall-in">explore my expirience below</p>
-            <p className="text-gray-500 fall-in">open to full-time & freelance opportunitties</p>
+            <p className="text-gray-500 pt-2 pb-4 fall-in">explore my experience below</p>
+            <p className="text-gray-500 fall-in">open to full-time & freelance opportunities</p>
         </div>
     )
 }

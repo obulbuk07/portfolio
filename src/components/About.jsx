@@ -8,19 +8,19 @@ import aboutPhoto from "../img/about-photo.jpg"
 const stats = [
     {
         logo: aboutProject,
-        name: "projects",
+        name: "Projects",
         count: 4,
         link: "go"
     },
     {
         logo: aboutCerteficat,
-        name: "certeficats",
-        count: 1,
+        name: "Сertificates",
+        count: 3,
         link: "go"
     },
     {
         logo: aboutWork,
-        name: "work",
+        name: "Completed Jobs",
         count: 2,
         link: "go"
     },

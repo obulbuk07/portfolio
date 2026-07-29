@@ -8,28 +8,34 @@ import facebook from "../img/facebook.png"
 import github from "../img/github.png"
 const socials = [
     {
+        link:"",
         img: telegram,
         name: "Telegram"
     },
     {
+        link:"",
         img: linkedin,
         name: "LinkedIn"
     },
     {
+        link:"",
         img: github,
         name: "GitHub"
     },
     {
+        link:"",
         img: instagram,
         name: "Instagram"
     },
     {
+        link:"",
         img: facebook,
         name: "Facebook"
     },
     {
+        link:"",
         img: gmail,
-        name: "Gmail"
+        name: "Email"
     },
 ]
 
@@ -37,7 +43,7 @@ function ContactSocials(){
     return(
         <div className=" gradient_bg col-span-5 md:col-span-2 border glass p-4 rise-in">
             <img className=" rounded-full text-white h-50 w-50 mx-auto" src={photo} alt="" />
-            <h1 className="text-2xl text-center my-10">Find me on solcials media</h1>
+            <h1 className="text-2xl text-center my-10">Find me on socials media</h1>
             
             <div className="grid grid-cols-2 gap-4 mt-6 rise-in">
                 {socials.map(social => (
