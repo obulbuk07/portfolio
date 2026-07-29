@@ -5,8 +5,8 @@ import ScrambledText from "./ScrambledText"
 function AboutInfo(){
     return(
         <div className="col-span-2">
-            <h1 className="text-5xl py-2">Oleksandr</h1>
-            <h1 className="text-5xl pb-2">Bulbuk</h1>
+            <h1 className="text-5xl py-2 rise-in">Oleksandr</h1>
+            <h1 className="text-5xl pb-2 rise-in">Bulbuk</h1>
             
             <ScrambledText
                 className="scrambled-text-demo"
@@ -19,7 +19,7 @@ function AboutInfo(){
             </ScrambledText>
             
             
-            <div className="glass py-2 px-4 bg-black rounded my-4 w-3/4">
+            <div className="glass py-2 px-4 bg-black rounded my-4 w-3/4 rise-in">
                 <TextType 
                     text={["Great things are built from small details", "Speed means nothing without precision.", "Simplicity is the hardest thing to build"]}
                     typingSpeed={75}

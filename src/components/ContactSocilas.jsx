@@ -35,11 +35,11 @@ const socials = [
 
 function ContactSocials(){
     return(
-        <div className=" gradient_bg col-span-2 border glass p-4">
+        <div className=" gradient_bg col-span-2 border glass p-4 rise-in">
             <img className=" rounded-full text-white h-50 w-50 mx-auto" src={photo} alt="" />
             <h1 className="text-2xl text-center my-10">Find me on solcials media</h1>
             
-            <div className="grid grid-cols-2 gap-4 mt-6">
+            <div className="grid grid-cols-2 gap-4 mt-6 rise-in">
                 {socials.map(social => (
                     <SocialMedia
                         img={social.img}

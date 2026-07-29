@@ -28,7 +28,7 @@ const stats = [
 
 function About(){
     return(
-        <div id="about" className="w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6">
+        <div id="about" className="w-3/4 mx-auto text-white grid grid-cols-3 p-6 gap-6 rise-in">
             <AboutInfo/>
             <img className="rounded-full hover:brightness-75 " src={aboutPhoto} alt="" />
             

@@ -166,4 +166,69 @@ textarea:focus {
 .shiny-text {
   display: inline-block;
 }
+.fall-in {
+  opacity: 0;
+  transform: translateY(-60px);
+  animation: fallIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
 
+@keyframes fallIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(10px); /* легкий перелет вниз перед поверненням — ефект "відскоку" */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise-in {
+  animation: riseIn linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%; /* анімація йде поки елемент "входить" у viewport */
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise-in-children {
+  opacity: 0;
+  transform: translateY(60px);
+  animation: riseIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes riseInChildren {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px); /* легкий перелет вгору перед поверненням */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* затримки для послідовної появи по черзі (до 8 елементів, можна розширити) */
+.rise-in-children:nth-child(1) { animation-delay: 0s; }
+.rise-in-children:nth-child(2) { animation-delay: 0.1s; }
+.rise-in-children:nth-child(3) { animation-delay: 0.2s; }
+.rise-in-children:nth-child(4) { animation-delay: 0.3s; }
+.rise-in-children:nth-child(5) { animation-delay: 0.4s; }
+.rise-in-children:nth-child(6) { animation-delay: 0.5s; }
+.rise-in-children:nth-child(7) { animation-delay: 0.6s; }
+.rise-in-children:nth-child(8) { animation-delay: 0.7s; }

@@ -1,7 +1,7 @@
 function ContactForm(){
     return(
-        <div className="gradient_bg p-4 glass col-span-3">
-            <form className="flex flex-col gap-2 p-4 w-2/3 mx-auto " >
+        <div className="gradient_bg p-4 glass col-span-3 rise-in">
+            <form className="flex flex-col gap-2 p-4 w-2/3 mx-auto rise-in-children " >
                 <h1 className="text-2xl text-center mb-6">Contact me</h1>
                 <label htmlFor="name">Enter your name</label>
                 <input className=" glass border rounded-full px-4 py-2 mb-4 w-3/3" id="name" type="text" />

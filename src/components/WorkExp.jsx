@@ -18,7 +18,7 @@ const workExp = [
 ]
 function WorkExp(){
     return(
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4 rise-in-children">
             <h1 className="my-4 text-3xl col-span-3">My Work Expirience</h1>
             {workExp.map(item=>(
                 <WorkExpItem
