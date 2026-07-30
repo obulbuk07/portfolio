@@ -1,5 +1,5 @@
 import SocialMedia from "./SocialMedia"
-import photo from "../img/about-photo.jpg"
+import photo from "../img/social2.jpg"
 import telegram from "../img/telegram.png"
 import linkedin from "../img/linkedin.png"
 import instagram from "../img/instagram.png"
