@@ -10,16 +10,8 @@ const projects = [
         date: "23.04.2022",
         name: "Portfolio",
         info: "A modern, responsive portfolio built using HTML, CSS, JavaScript, and React.js to showcase my frontend development skills, interactive web projects, and dynamic user interface designs.",
-        link: "https//",
-        github: "github",
-    },
-    {
-        img: skillswap,
-        date: "20.06.2024",
-        name: "SkillSwap",
-        info: "An interactive online platform where people can share and learn new skills together. It allows users to connect, collaborate, learn, and offer peer-to-peer coaching effortlessly.",
-        link: "https//",
-        github: "https://github.com/obulbuk07/skillswap-client",
+        link: "https://portfolio-my-team-b0ed.vercel.app/#portfolio",
+        github: "https://github.com/obulbuk07/portfolio",
     },
     {
         img: studentGuide,
@@ -27,7 +19,7 @@ const projects = [
         name: "Student Guide",
         info: "Designed for new students of Ivano-Frankivsk National Medical University, this guide helps navigate campus life by detailing university buildings, local cafes, student organizations, and key locations.",
         link: "http://collegeifnmu.co.uk/StudentGit/index.html",
-        github: "github",
+        github: "https://github.com/obulbuk07/StudentGuide",
     },
     {
         img: eduhub,
@@ -35,7 +27,7 @@ const projects = [
         name: "Education Hub",
         info: "An online educational platform developed for Ivano-Frankivsk National Medical University, allowing students to learn remotely by watching video lectures and studying interactive course materials.",
         link: "http://collegeifnmu.co.uk/index.html",
-        github: "github",
+        github: "https://github.com/obulbuk07/eduhub",
     },
 ]
 
