@@ -9,7 +9,7 @@ const stats = [
     {
         logo: aboutProject,
         name: "Projects",
-        count: 4,
+        count: 3,
         link: "go"
     },
     {
