@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 import PortfolioProject from "./PortfolioProject";
+import ProjectModal from "./ProjectModal";
+
 import eduhub from "../img/edu-hub.jpg"
 import studentGuide from "../img/student-guide.jpg"
 import skillswap from "../img/skillswap.jpg"
@@ -32,20 +36,29 @@ const projects = [
 ]
 
 function PortfolioProjects(){
+    const[selectedProject, setSelectedProject] = useState(null)
 
     return(
         <div className=" grid grid-cols-3 gap-4 py-8 mt-4 rise-in-children">
             <h1 className="my-4 text-3xl col-span-3">My Projects</h1>
             {projects.map(project => (
                 <PortfolioProject
+                    key={project.name}
                     img={project.img}
                     date={project.date}
                     name={project.name}
                     info={project.info}
                     link={project.link}
                     github={project.github}
+                    onGoMore={() => setSelectedProject(project)}
                 />
             ))}
+            {selectedProject && (
+                <ProjectModal
+                    project={selectedProject}
+                    onClose={() => setSelectedProject(null)}
+                />
+            )}
         </div>
     )
 }
